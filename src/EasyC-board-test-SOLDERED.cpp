@@ -135,17 +135,6 @@ byte EasyCBoardTest::readPin(byte pin)
     return readValue;
 }
 
-// Just to see bytes as bits for debugging purposes
-void printBinary(byte inByte)
-{
-    for (int b = 7; b >= 0; b--)
-    {
-        Serial.print(bitRead(inByte, b));
-        // if(b == 4) Serial.print(" "); // Uncomment for separate bytes in print -> 0000 0000
-    }
-    Serial.println();
-}
-
 /**
  * @brief                      Function to send bytes to the slave
  *
@@ -153,11 +142,6 @@ void printBinary(byte inByte)
  */
 byte EasyCBoardTest::sendBytes()
 {
-    //da vidimo kaj se salje
-    printBinary(registers[0]);
-    printBinary(registers[1]);
-    printBinary(registers[2]);
-
     Wire.beginTransmission(0x30);
     Wire.write(registers, 3);
     byte err = Wire.endTransmission();

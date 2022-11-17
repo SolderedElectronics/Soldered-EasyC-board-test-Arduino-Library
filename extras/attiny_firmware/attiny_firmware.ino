@@ -28,9 +28,6 @@ void setup()
     initDefault();
     addr = getI2CAddress();
 
-    //Serial.begin(115200);
-    //Serial.println("Bok, ja glumim atiny");
-
     Wire.begin(0x30); //malo je problem kad je tu addr, onda nece, ali mozda je zato kad sam testirao na dasduinu
     Wire.onReceive(receiveEvent);
     Wire.onRequest(requestEvent);
@@ -44,10 +41,6 @@ void loop()
     // If data are received and stored in the registers, we can set the pins depending on registers values
     if (received == 1)
     {
-        // Just to print the bits we send
-        //printBinary(registers[0]);
-        //printBinary(registers[1]);
-        //printBinary(registers[2]);
         if ((registers[0] & 0b10000000) != 0) // If the MSB is set to 1 it means we need to configure the pins
         {
             byte mode;
@@ -93,7 +86,6 @@ void loop()
             }
         }
         received = 0;
-        //print();
     }
 
     if (reading == 1) // When is known which pin needs to be read, read it
@@ -132,27 +124,3 @@ void requestEvent()
 {
     Wire.write(readDigital); // Send the master the read value
 }
-
-/*
-// Just to see bytes as bits for debugging purposes
-void printBinary(byte inByte)
-{
-    for (int b = 7; b >= 0; b--)
-    {
-        Serial.print(bitRead(inByte, b));
-        // if(b == 4) Serial.print(" "); // Uncomment for separate bytes in print -> 0000 0000
-    }
-    Serial.println();
-}
-
-// Just to print the pin configuration array for debugging purposes
-void print()
-{
-    for (int i = 0; i < 12; ++i)
-    {
-        Serial.print(pinConfig[i]);
-        Serial.print(" ");
-    }
-    Serial.println();
-}
-*/

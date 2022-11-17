@@ -1,7 +1,6 @@
 var NAVTREEINDEX0 =
 {
 "_easy_c-board-test-_s_o_l_d_e_r_e_d_8cpp.html":[2,0,0,1],
-"_easy_c-board-test-_s_o_l_d_e_r_e_d_8cpp.html#af6fadceefddd320e1aa3cffcf6d4b50a":[2,0,0,1,0],
 "_easy_c-board-test-_s_o_l_d_e_r_e_d_8h.html":[2,0,0,2],
 "_easy_c-board-test-_s_o_l_d_e_r_e_d_8h_source.html":[2,0,0,2],
 "annotated.html":[1,0],
@@ -37,11 +36,9 @@ var NAVTREEINDEX0 =
 "functions.html":[1,3,0],
 "functions_func.html":[1,3,1],
 "functions_vars.html":[1,3,2],
-"globals.html":[2,1,0],
-"globals_func.html":[2,1,1],
 "hierarchy.html":[1,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index.html#autotoc_md8":[0,0],
 "pages.html":[]
 };

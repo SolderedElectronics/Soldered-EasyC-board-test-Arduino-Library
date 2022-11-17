@@ -153,7 +153,7 @@ void printBinary(byte inByte)
  */
 byte EasyCBoardTest::sendBytes()
 {
-    //da vidimo kaj se salje
+    // da vidimo kaj se salje
     printBinary(registers[0]);
     printBinary(registers[1]);
     printBinary(registers[2]);

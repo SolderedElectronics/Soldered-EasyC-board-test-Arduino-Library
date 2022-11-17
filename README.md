@@ -1,6 +1,6 @@
-# NAZIV PROIZVODA Arduino library
+# EasyC board test Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-EasyC-board-test-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-EasyC-board-test-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
@@ -18,7 +18,7 @@ You can find hardware design for this board in *NAZIV PROIZVODA* hardware reposi
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-EasyC-board-test-Arduino-Library/).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
@@ -27,7 +27,7 @@ Access Arduino library documentation [here](https://SolderedElectronics.github.i
 
 The library is compatible with board & microcontroller families shown in green below: 
 
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-EasyC-board-test-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-EasyC-board-test-Arduino-Library/actions/workflows/compile_test.yml)
 
 
 ### About Soldered

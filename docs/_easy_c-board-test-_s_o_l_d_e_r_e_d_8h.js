@@ -1,5 +1,4 @@
-var annotated_dup =
+var _easy_c_board_test__s_o_l_d_e_r_e_d_8h =
 [
-    [ "EasyC", "class_easy_c.html", "class_easy_c" ],
     [ "EasyCBoardTest", "class_easy_c_board_test.html", "class_easy_c_board_test" ]
 ];

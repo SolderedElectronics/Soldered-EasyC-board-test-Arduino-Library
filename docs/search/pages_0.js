@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['easyc_20board_20test_20arduino_20library_0',['EasyC board test Arduino library',['../index.html',1,'']]]
 ];

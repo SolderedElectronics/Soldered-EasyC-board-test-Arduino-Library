@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_1',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['pinwrite_0',['pinWrite',['../class_easy_c_board_test.html#a518bcb1ede13e49d1288d5d9bc19dc3a',1,'EasyCBoardTest']]],
+  ['printbinary_1',['printBinary',['../_easy_c-board-test-_s_o_l_d_e_r_e_d_8cpp.html#af6fadceefddd320e1aa3cffcf6d4b50a',1,'EasyC-board-test-SOLDERED.cpp']]]
 ];

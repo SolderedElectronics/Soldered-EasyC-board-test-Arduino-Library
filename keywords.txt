@@ -5,12 +5,15 @@
 ##################################################
 # Datatypes (KEYWORD1)
 ##################################################
-
+EasyCBoardTest KEYWORD1
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin	 KEYWORD2
+set      KEYWORD2
+pinWrite KEYWORD2
+readPin  KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
